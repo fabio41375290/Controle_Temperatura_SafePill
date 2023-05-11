@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "slug": "1fc13165",
+  "name": "BACKUP_25_04_2023",
+  "date": "2023-04-25T16:17:41.226591+00:00",
+  "type": "full",
+  "supervisor_version": "2023.04.1",
+  "folders": [
+    "share",
+    "addons/local",
+    "ssl",
+    "media"
+  ],
+  "homeassistant": {
+    "version": "2023.4.6",
+    "size": 39.39
+  },
+  "repositories": [
+    "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt",
+    "https://github.com/esphome/home-assistant-addon",
+    "https://github.com/hassio-addons/repository",
+    "core",
+    "local",
+    "https://github.com/sabeechen/hassio-google-drive-backup.git"
+  ],
+  "docker": {
+    "registries": {}
+  },
+  "addons": [
+    {
+      "slug": "core_samba",
+      "name": "Samba share",
+      "version": "10.0.1",
+      "size": 0.0
+    },
+    {
+      "slug": "core_configurator",
+      "name": "File editor",
+      "version": "5.6.0",
+      "size": 0.0
+    },
+    {
+      "slug": "core_ssh",
+      "name": "Terminal & SSH",
+      "version": "9.7.0",
+      "size": 0.01
+    },
+    {
+      "slug": "a0d7b954_grafana",
+      "name": "Grafana",
+      "version": "8.2.2",
+      "size": 0.84
+    },
+    {
+      "slug": "core_mosquitto",
+      "name": "Mosquitto broker",
+      "version": "6.2.0",
+      "size": 0.02
+    },
+    {
+      "slug": "a0d7b954_influxdb",
+      "name": "InfluxDB",
+      "version": "4.6.0",
+      "size": 3.56
+    },
+    {
+      "slug": "a0d7b954_tailscale",
+      "name": "Tailscale",
+      "version": "0.11.1",
+      "size": 0.0
+    },
+    {
+      "slug": "5c53de3b_esphome",
+      "name": "ESPHome",
+      "version": "2023.4.1",
+      "size": 0.0
+    },
+    {
+      "slug": "a0d7b954_nodered",
+      "name": "Node-RED",
+      "version": "14.1.5",
+      "size": 0.0
+    },
+    {
+      "slug": "45df7312_zigbee2mqtt",
+      "name": "Zigbee2MQTT",
+      "version": "1.30.3-1",
+      "size": 0.0
+    },
+    {
+      "slug": "a0d7b954_sqlite-web",
+      "name": "SQLite Web",
+      "version": "3.7.1",
+      "size": 0.0
+    },
+    {
+      "slug": "a0d7b954_vscode",
+      "name": "Studio Code Server",
+      "version": "5.5.7",
+      "size": 0.1
+    },
+    {
+      "slug": "f0e7e328_hassio_google_drive_backup",
+      "name": "Home Assistant Google Drive Backup",
+      "version": "0.110.3",
+      "size": 0.0
+    }
+  ],
+  "protected": false,
+  "crypto": null,
+  "compressed": true
+}
